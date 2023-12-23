@@ -536,6 +536,65 @@ img {
   fill: currentColor;
 }
 
+/* Subscribe */
+
+.subscribe {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  margin-left: auto;
+}
+.subscribe-text {
+  margin-bottom: 16px;
+}
+.subscribe-form {
+  display: inline-flex;
+}
+.subscribe-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  outline: 0;
+  width: 264px;
+  height: 40px;
+
+  padding: 8px 0 8px 16px;
+  margin-right: 24px;
+}
+.subscribe-button {
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  min-width: 165px;
+  height: 40px;
+
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
+}
+.subscribe-button-icon {
+  fill: #ffffff;
+}
+
 /* Common styles */
 
 .visually-hidden {
@@ -788,5 +847,3 @@ img {
 .modal-form-button:focus {
   background-color: #404bbf;
 }
-
-/* Subscribe */
