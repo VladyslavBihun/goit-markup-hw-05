@@ -550,12 +550,15 @@ img {
   margin-bottom: 16px;
 }
 .subscribe-form {
-  display: inline-flex;
+  display: flex;
+  gap: 24px;
 }
 .subscribe-input {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  background-color: transparent;
+  color: #ffffff;
 
   border-radius: 4px;
   border: 1px solid #fff;
@@ -565,9 +568,18 @@ img {
   height: 40px;
 
   padding: 8px 0 8px 16px;
-  margin-right: 24px;
 }
+
+.subscribe-input:placeholder {
+  color: #ffffff;
+}
+
 .subscribe-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #fff;
@@ -580,7 +592,6 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -592,6 +603,7 @@ img {
   background-color: #404bbf;
 }
 .subscribe-button-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 
